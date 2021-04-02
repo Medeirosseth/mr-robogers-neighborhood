@@ -8,14 +8,14 @@
 // }
 // console.log(beepboop(number))
 
- const text = "hello there "
- function wordCounter(text) {
-  let wordCount = 0;
-  const wordArray = text.split(" ");
-  wordArray.forEach(function(word) {
-    wordCount++;
-  });
-  return wordCount;
+const text = "hello there "
+function wordCounter(text) {
+ let wordCount = 0;
+ const wordArray = text.split(" ");
+ wordArray.forEach(function(word) {
+   wordCount++;
+ });
+ return wordCount;
+ console.log(text);
 }
 
-console.log(wordCounter(text));
