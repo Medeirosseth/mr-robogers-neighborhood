@@ -8,10 +8,10 @@ function robotLanguage(number){
   const three = [3];
   numbers.forEach(number){
     if (numbers.includes(number)){
-
-    
+      
+    }
   }
-    return robotLanguag
+    return robotLanguage
 }
 
 ///User Interface
@@ -19,7 +19,7 @@ $(document).ready(function(){
   $("#formOne").submit(function(event) {
     event.preventDefault();
    const robotLanguage = $("input#translator").val()
-    $("#results").text(robotLanguage(number));
+    $("#results").text(robotLanguage);
 
   });
-})
+});
