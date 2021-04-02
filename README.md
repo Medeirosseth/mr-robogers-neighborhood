@@ -36,10 +36,27 @@ onomatopoeias and a string " Wont you be my neigbor?"_
 
 * _Describe: beepBoop()
 Test: "It should return an array with a 0 if the number 0 is inputted"
-Code: beepBoop(0);
+Code: beepBoop(number);
 Expected Output: 0_
-* __
-* __
+* _Test: "It should return an array with "BEEP!" if the number 1 is inputted"
+Code: beepBoop(number);
+Expected Output: "BEEP"_
+* _Test: "It should return an array with "BOOP!" if the number 2 is inputted"
+Code: beepBoop(number);
+Expected Output: "BOOP!"_
+* _Test: "It should return an array with "Wont you be my neighbor?" if the number 3 is inputted"
+Code: beepBoop(number);
+Expected Output: "wont you be my neighbor"_
+* _Test: "It should return an array with "Wont you be my neighbor if 3 is present in any number"
+Code: beepBoop(number);
+Expected Output: "Wont you be my neighbor"_
+* _Test: "It should return an array with "BOOP" if the number 2 is present as long as its not accompanied by a 3"
+Code: beepBoop(number);
+Expected Output: "BOOP"_
+* _Test: " Numbers 4-9 should return their value i.e. 4,5,6,7,8,9 when input"
+Code: beepBoop(number);
+
+
 
 ## License
 
