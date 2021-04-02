@@ -55,6 +55,9 @@ Code: beepBoop(number);
 Expected Output: "BOOP"_
 * _Test: " Numbers 4-9 should return their value i.e. 4,5,6,7,8,9 when input"
 Code: beepBoop(number);
+* _Test: "It should not accept any numbers hire than 50 and return "does not compute"
+Code: beepBoop(number);
+
 
 
 
