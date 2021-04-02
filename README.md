@@ -37,7 +37,7 @@ onomatopoeias and a string " Wont you be my neigbor?"_
 * _Describe: beepBoop()
 Test: "It should return an array with a 0 if the number 0 is inputted"
 Code: beepBoop(number);
-Expected Output: 0_
+Expected Output: 0_ :white_check_mark:
 * _Test: "It should return an array with "BEEP!" if the number 1 is inputted"
 Code: beepBoop(number);
 Expected Output: "BEEP"_
