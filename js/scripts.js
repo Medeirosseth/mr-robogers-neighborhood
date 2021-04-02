@@ -1,10 +1,13 @@
 ///Business Interface
+
 const numbers = ["0","1","2","3","4","5","6","7","8","9"]
-function robotLanguage(number){
+function robotLanguage(num1, num2){
   const numbers = ["0","1","2","3","4","5","6","7","8","9"]
-  numbers.forEach(function(number) {
-    ;
-  })  
+  const zero = 0;
+    if (zero == 0 ){
+      return true;
+    } 
+    return robotLanguage
 }
 
 
