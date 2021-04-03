@@ -1,22 +1,22 @@
 ///Business logic
 
-const numbers = ["0","1","2","3","4","5","6","7","8","9"]
-function robotLanguage(number){
-  const numbers = ["0","1","2","3","4","5","6","7","8","9"]
-  const one = [1];
-  const two = [2];
-  const three = [3];
 
-    return robotLanguage
-}
+function beepboop(number){
+  const zeroToTen = [0,1,2,3]
+  const robotSlang = []
+  for(let index = 0; index < zeroToTen.length ; index++)
+    if(number.lengthincludes(1) 
+ 
+  console.log(zeroToTen)
+
 
 
 ///User Interface
-$(document).ready(function(){
-  $("#formOne").submit(function(event) {
-    event.preventDefault();
-   const robotLanguage = $("input#translator").val()
-    $("#results").text(robotLanguage);
+// $(document).ready(function(){
+//   $("#formOne").submit(function(event) {
+//     event.preventDefault();
+//    const robotLanguage = $("input#translator").val()
+//     $("#results").text(robotLanguage);
 
-  });
-});
+//   });
+// });
