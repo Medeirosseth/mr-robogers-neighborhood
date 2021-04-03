@@ -6,13 +6,10 @@ function robotLanguage(number){
   const one = [1];
   const two = [2];
   const three = [3];
-  numbers.forEach(number){
-    if (numbers.includes(number)){
-      
-    }
-  }
+
     return robotLanguage
 }
+
 
 ///User Interface
 $(document).ready(function(){
