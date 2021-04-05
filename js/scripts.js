@@ -1,22 +1,30 @@
 ///Business logic
+const beep = "BeEp!";
+const boop = "BoOp!";
+function beepboop(num) {
+  let robotSlang = [];
+  for(let i = 0; i <= num ; i++){
+     robotSlang.push(i.toString());
+  }
+
+  let robotLanguage = robotSlang.map(function (slang) {
+    if (slang.includes("1")) {
+      return slang = boop
+    } else
+    return boop;
+  }
+
+}
+console.log(robotSlang)
 
 
-function beepboop(number){
-  const zeroToTen = [0,1,2,3]
-  const robotSlang = []
-  for(let index = 0; index < zeroToTen.length ; index++)
-    if(number.lengthincludes(1) 
- 
-  console.log(zeroToTen)
 
+//User Interface
+$(document).ready(function(){
+  $("#formOne").submit(function(event) {
+    event.preventDefault();
+   const robotTalk = $("input#translator").val()
+    $("#results").text(robotTalk);
 
-
-///User Interface
-// $(document).ready(function(){
-//   $("#formOne").submit(function(event) {
-//     event.preventDefault();
-//    const robotLanguage = $("input#translator").val()
-//     $("#results").text(robotLanguage);
-
-//   });
-// });
+  });
+});
