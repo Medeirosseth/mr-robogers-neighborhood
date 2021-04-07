@@ -23,13 +23,13 @@ onomatopoeias and a string " Wont you be my neigbor?"_
 * _Click the green code button and retrieve the git git glone link_
 * _open your terminal and run Git Clone (followed by the URL)_
 * _open the cloned repository with your file manager and run Index.html_
-* _[Click Here]() To veiw website_
+* _[Click Here](https://medeirosseth.github.io/mr-robogers-neighborhood/) To veiw website_
 
 
 ## Known Bugs
 
-* __
-* __
+* _Digits arent being replaced with "BEEP" "BOOP" "Wont you be my neighbor" _
+* _Objectives not met_
 * __
 
 ## Test Driven Development
