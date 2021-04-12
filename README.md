@@ -32,20 +32,24 @@ onomatopoeias and a string " Wont you be my neigbor?"_
 
 ## Test Driven Development
 
-:white_check_mark:* _Describe: beepBoop():white_check_mark:
+#### _Describe: beepBoop():white_check_mark:
 Test: "It should return an array with a 0 if the number 0 is inputted"
 Code: beepBoop(number);
-Expected Output: 0_ :
-:white_check_mark:* _Test: "It should return an array with "BEEP!" if the number 1 is inputted"
+Expected Output: 0_ :=
+
+* :white_check_mark:* _Test: "It should return an array with "BEEP!" if the number 1 is inputted"
 Code: beepBoop(number);
 Expected Output: "BEEP"_
-:white_check_mark:* _Test: "It should return an array with "BOOP!" if the number 2 is inputted"
+
+* :white_check_mark:* _Test: "It should return an array with "BOOP!" if the number 2 is inputted"
 Code: beepBoop(number);
 Expected Output: "BOOP!"_
-:white_check_mark:* _Test: "It should return an array with "Wont you be my neighbor?" if the number 3 is inputted"
+
+* :white_check_mark:* _Test: "It should return an array with "Wont you be my neighbor?" if the number 3 is inputted"
 Code: beepBoop(number);
 Expected Output: "wont you be my neighbor"_
-:white_check_mark:* _Test: " Numbers 4-9 should return their value i.e. 4,5,6,7,8,9 when input"
+
+* :white_check_mark:* _Test: " Numbers 4-9 should return their value i.e. 4,5,6,7,8,9 when input"
 Code: beepBoop(number);
 
 
