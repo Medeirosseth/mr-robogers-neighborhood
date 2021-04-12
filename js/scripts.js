@@ -6,7 +6,7 @@
         robotSlang.push("Wont you be my neighbor?");
       } else if (index.toString().includes('2')) {
         robotSlang.push("BOOP");
-      } else if (index.toString().includes('2')) {
+      } else if (index.toString().includes('1')) {
         robotSlang.push("BEEP!");
       } else {
         robotSlang.push(index.toString());
