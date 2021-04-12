@@ -1,22 +1,27 @@
-///Business logic
-
-const numbers = ["0","1","2","3","4","5","6","7","8","9"]
-function robotLanguage(number){
-  const numbers = ["0","1","2","3","4","5","6","7","8","9"]
-  const one = [1];
-  const two = [2];
-  const three = [3];
-
-    return robotLanguage
+function beepboop(slang) {
+  let robotSlang = [];
+  for(let index = 0; index<= slang; index ++){
+    if (index.toString().includes('3')){
+      robotSlang.push("Wont you be my neighbor?");
+    } else if (index.toString().includes('2')) {
+      robotSlang.push("BOOP");
+    } else if (index.toString().includes('2')) {
+      robotSlang.push("BEEP!");
+    } else {
+      robotSlang.push(index.toString());
+    }
+  }
+  return robotSlang
 }
 
 
-///User Interface
+//User Interface
 $(document).ready(function(){
-  $("#formOne").submit(function(event) {
-    event.preventDefault();
-   const robotLanguage = $("input#translator").val()
-    $("#results").text(robotLanguage);
+$("#formOne").submit(function(event) {
+  event.preventDefault();
+ let robotSlang = $("input#translator").val()
+ let robotLanguage = beepboop(robotSlang);
+  $("#results").text(robotLanguage.toString());
+});
 
-  });
 });
