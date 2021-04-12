@@ -1,22 +1,19 @@
-// ///Business logic
 
   function beepboop(slang) {
-    let robotSlang = ("1,2,3,4,5,5,6");
-    let robotLanguage = robotSlang.map(function(slang) {
-      if (slang.includes("3")) {
-        return "Wont you be my neighbor";
-      } else if ( slang.includes("2")) {
-        return "BEEP!";
-      } else (slang.includes("1")); {
-        return "BOOP!";
+    let robotSlang = [];
+    for(let index = 0; index<= slang; index ++){
+      if (index.toString().includes('3')){
+        robotSlang.push("Wont you be my neighbor?");
+      } else if (index.toString().includes('2')) {
+        robotSlang.push("BOOP");
+      } else if (index.toString().includes('2')) {
+        robotSlang.push("BEEP!");
+      } else {
+        robotSlang.push(index.toString());
       }
-      
-    })
-  };  
-
-
-console.log(robotSlang(3))
-
+    }
+    return robotSlang
+  }
 
 
 //User Interface
@@ -24,20 +21,9 @@ $(document).ready(function(){
   $("#formOne").submit(function(event) {
     event.preventDefault();
    let robotSlang = $("input#translator").val()
-    $("#results").text(robotSlang);
-
+   let robotLanguage = beepboop(robotSlang);
+    $("#results").text(robotLanguage.toString());
   });
-  robotSlang
+  
 });
 
-// // function beepboop(num) {
-// //   let robotSlang = [];
-// //   for(let i = 0; i <= 50 ; i++){
-// //     robotSlang.push(i.toString());
-// //     if (robotTalk[i].include(1)) {
-// //     robotSlang.push("Beep");
-// //    } else {
-// //       robotSlang.push(num);
-// //     }
-// // } return robotSlang
-// // }

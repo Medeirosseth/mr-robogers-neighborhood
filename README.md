@@ -1,6 +1,6 @@
-#### _Users enter a series of numbers _
+#### _Users enter a series of numbers then its translated to robot_
 
-#### By _Seth Paul Medeiros_
+#### By :neckbeard:_Seth Paul Medeiros_
 
 ## Technologies Used
 
@@ -26,37 +26,28 @@ onomatopoeias and a string " Wont you be my neigbor?"_
 * _[Click Here](https://medeirosseth.github.io/mr-robogers-neighborhood/) To veiw website_
 
 
-## Known Bugs
+## Known Bugs:no_entry_sign: :bug:
 
-* _Digits arent being replaced with "BEEP" "BOOP" "Wont you be my neighbor" _
-* _Objectives not met_
-* __
+* _None Known_
 
 ## Test Driven Development
 
-* _Describe: beepBoop()
+:white_check_mark:* _Describe: beepBoop():white_check_mark:
 Test: "It should return an array with a 0 if the number 0 is inputted"
 Code: beepBoop(number);
-Expected Output: 0_ :white_check_mark:
-* _Test: "It should return an array with "BEEP!" if the number 1 is inputted"
+Expected Output: 0_ :
+:white_check_mark:* _Test: "It should return an array with "BEEP!" if the number 1 is inputted"
 Code: beepBoop(number);
 Expected Output: "BEEP"_
-* _Test: "It should return an array with "BOOP!" if the number 2 is inputted"
+:white_check_mark:* _Test: "It should return an array with "BOOP!" if the number 2 is inputted"
 Code: beepBoop(number);
 Expected Output: "BOOP!"_
-* _Test: "It should return an array with "Wont you be my neighbor?" if the number 3 is inputted"
+:white_check_mark:* _Test: "It should return an array with "Wont you be my neighbor?" if the number 3 is inputted"
 Code: beepBoop(number);
 Expected Output: "wont you be my neighbor"_
-* _Test: "It should return an array with "Wont you be my neighbor if 3 is present in any number"
+:white_check_mark:* _Test: " Numbers 4-9 should return their value i.e. 4,5,6,7,8,9 when input"
 Code: beepBoop(number);
-Expected Output: "Wont you be my neighbor"_
-* _Test: "It should return an array with "BOOP" if the number 2 is present as long as its not accompanied by a 3"
-Code: beepBoop(number);
-Expected Output: "BOOP"_
-* _Test: " Numbers 4-9 should return their value i.e. 4,5,6,7,8,9 when input"
-Code: beepBoop(number);
-* _Test: "It should not accept any numbers hire than 50 and return "does not compute"
-Code: beepBoop(number);
+
 
 
 
